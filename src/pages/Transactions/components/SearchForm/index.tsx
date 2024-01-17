@@ -1,4 +1,5 @@
 import { MagnifyingGlass } from 'phosphor-react';
+
 import * as S from './styles';
 
 export function SearchForm() {
