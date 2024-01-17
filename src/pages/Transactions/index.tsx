@@ -26,7 +26,7 @@ export function Transactions() {
                   R$ {transaction.price}
                   </S.PriceHighlight>
                 </td>
-                <td>{transaction.type}</td>
+                <td>{transaction.category}</td>
                 <td>{transaction.createdAt}</td>
               </tr>
             ))}
