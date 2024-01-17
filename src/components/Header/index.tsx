@@ -1,9 +1,9 @@
-import * as Dialog from '@radix-ui/react-dialog';
+import * as Dialog from '@radix-ui/react-dialog'
 
-import { NewTransactionModal } from '../NewTransactionModal';
-import logoImg from '../../assets/logo.svg';
+import { NewTransactionModal } from '../NewTransactionModal'
+import logoImg from '../../assets/logo.svg'
 
-import * as S from './styles';
+import * as S from './styles'
 
 export function Header() {
   return (

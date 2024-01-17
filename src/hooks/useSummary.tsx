@@ -1,7 +1,7 @@
-import { useTransactions } from "./useTransactions";
+import { useTransactions } from './useTransactions'
 
 export function useSummary() {
-  const { transactions } = useTransactions();
+  const { transactions } = useTransactions()
 
   const summary = transactions.reduce(
     (accumulator, transaction) => {
@@ -13,14 +13,14 @@ export function useSummary() {
         accumulator.total -= transaction.price
       }
 
-      return accumulator;
+      return accumulator
     },
     {
       income: 0,
       outcome: 0,
-      total: 0
-    }
-  );
+      total: 0,
+    },
+  )
 
-  return summary;
+  return summary
 }

@@ -1,1 +1,1 @@
-export const TRANSACTIONS_URL = '/transactions';
+export const TRANSACTIONS_URL = '/transactions'
