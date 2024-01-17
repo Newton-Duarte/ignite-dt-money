@@ -1,7 +1,7 @@
+import { ArrowCircleDown, ArrowCircleUp, X } from 'phosphor-react';
 import * as Dialog from '@radix-ui/react-dialog';
 
 import * as S from './styles';
-import { ArrowCircleDown, ArrowCircleUp, X } from 'phosphor-react';
 
 export function NewTransactionModal() {
   return (
